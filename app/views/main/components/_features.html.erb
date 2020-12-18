@@ -16,25 +16,30 @@
 
 <div class="container mt-8 mb-6 text-center">
 
-  <h2 class="mb-6"><%= t("greenlight") %> <%= t("features.title") %></h2>
-
+  <h2 class="mb-6"><%= t("Nützliche") %> <%= t("features.title") %></h2>
+# ggf. brauchen wir hier eine clevere Formulierung die auf Englisch und Deutsch gleicher
+# Maßen funktioniert. Oder wir entfernen den "greenlight" Teil. Dann wird nur der features.title
+# aus dem Sprachfile dargestellt. Das müssen wir dem Kunden erklären. Ich denke das Deployment auf
+# deutsch hat prio. Wir sollten daher auch im GUI die Sprache auf Deutsch und nicht auf Browser
+# Umstellen.
   <div class="row feature-stamp">
     <div class="col-lg-3 col-md-6">
       <div class="feature-item">
-        <div class="stamp bg-primary"><i class="fas fa-chalkboard-teacher fa-2x"></i></div>
+        <div class="stamp bg-primary"><i class="fas fa-user-cog fa-2x"></i></div>
+        # Die Symbole sind Bestandteil der Schriftart. https://fontawesome.com/icons?m=free
         <h4 class="mt-4"><%= t("features.rooms") %></h4>
       </div>
     </div>
     <div class="col-lg-3 col-md-6">
-      <span class="stamp bg-primary"><i class="fas fa-film fa-2x"></i></span>
+      <span class="stamp bg-primary"><i class="fas fa-chalkboard-teacher fa-2x"></i></span>
       <h4 class="mt-4"><%= t("features.recordings") %></h4>
     </div>
     <div class="col-lg-3 col-md-6">
-      <span class="stamp bg-primary"><i class="fas fa-pencil-alt fa-2x"></i></span>
+      <span class="stamp bg-primary"><i class="fas fa-sitemap fa-2x"></i></span>
       <h4 class="mt-4"><%= t("features.designs") %></h4>
     </div>
     <div class="col-lg-3 col-md-6">
-      <span class="stamp bg-primary"><i class="fas fa-door-open fa-2x"></i></span>
+      <span class="stamp bg-primary"><i class="fas fa-align-left fa-2x"></i></span>
       <h4 class="mt-4"><%= t("features.authentication") %></h4>
     </div>
   </div>

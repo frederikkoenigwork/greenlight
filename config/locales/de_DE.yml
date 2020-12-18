@@ -275,11 +275,12 @@ de_DE:
       help: "Falls Sie glauben, dass hier ein Fehler vorliegt, kontaktieren Sie Ihren Systemadministrator."
   expired_reset_token: Der Link zum Zurücksetzen des Passworts ist abgelaufen!
   features:
-    title: Eigenschaften
+    title: Funktionen
     rooms: Personalisierte Räume
-    recordings: Aufzeichnungsmanagement
-    designs: Eigene Designs
-    authentication: Nutzerauthentifizierung
+    recordings: Präsentationen
+    designs: Breakout Sessions
+    authentication: Umfragen
+    # Die Bezeichnungen engl/deu passen im Code nicht mehr aufgrund bekannter Probleme
   footer:
     legal: Impressum
     privpolicy: Datenschutzerklärung
@@ -313,9 +314,9 @@ de_DE:
     search:
       start: Suche beginnen...
   landing:
-    about: "%{href} ist eine benutzerfreundliche Oberfläche für das Open-Source-Webkonferenzsystem BigBlueButton. Sie können Ihre eigenen Räume erstellen, um Konferenzen zu veranstalten oder können bestehenden Konferenzen über einen kurzen und bequemen Link beitreten."
+    about: "%{href} BigBlueButton ist eine benutzerfreundliche Webkonferenzlösung mit dem Fokus auf dem Abhalten von Webinaren und Lehrveranstaltungen. Die BGW legt besonderen Wert auf Datenschutz und Datensicherheit. BigBlueButton wird auf den eigenen Servern der BGW betrieben und kann daher die hohen Anforderungen."
     welcome: Willkommen zu BigBlueButton.
-    video: Schauen Sie sich unsere Anleitung zur Verwendung von Greenlight an
+    video: Sie benötigen Hilfe? Hier gelangen Sie zu nützlichen Tipps und Tricks.
     upgrade: "Zeigen Sie mir, wie ich auf Version 2.0. update!"
     version: "Wir haben eine neue Version von Greenlight veröffentlicht, aber Ihre Datenbank ist damit nicht kompatibel."
   language_default: Voreinstellung (Browsersprache)
